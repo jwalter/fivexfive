@@ -39,20 +39,20 @@
 		CFF8A15B13F576090025E2EE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CFF8A15D13F576090025E2EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CFF8A15F13F576090025E2EE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		CFF8A16313F576090025E2EE /* FiveXFive-Info.plist */ = {isa = PBXFileReference; path = "FiveXFive-Info.plist"; sourceTree = "<group>"; };
+		CFF8A16313F576090025E2EE /* FiveXFive-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FiveXFive-Info.plist"; sourceTree = "<group>"; };
 		CFF8A16513F576090025E2EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		CFF8A16713F576090025E2EE /* FiveXFive-Prefix.pch */ = {isa = PBXFileReference; path = "FiveXFive-Prefix.pch"; sourceTree = "<group>"; };
+		CFF8A16713F576090025E2EE /* FiveXFive-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FiveXFive-Prefix.pch"; sourceTree = "<group>"; };
 		CFF8A16813F576090025E2EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CFF8A16A13F576090025E2EE /* FiveXFiveAppDelegate.h */ = {isa = PBXFileReference; path = FiveXFiveAppDelegate.h; sourceTree = "<group>"; };
+		CFF8A16A13F576090025E2EE /* FiveXFiveAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FiveXFiveAppDelegate.h; sourceTree = "<group>"; };
 		CFF8A16B13F576090025E2EE /* FiveXFiveAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FiveXFiveAppDelegate.m; sourceTree = "<group>"; };
 		CFF8A16E13F576090025E2EE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		CFF8A17013F576090025E2EE /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		CFF8A17013F576090025E2EE /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		CFF8A17113F576090025E2EE /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		CFF8A17413F576090025E2EE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
 		CFF8A17B13F576090025E2EE /* FiveXFiveTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FiveXFiveTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFF8A18313F576090025E2EE /* FiveXFiveTests-Info.plist */ = {isa = PBXFileReference; path = "FiveXFiveTests-Info.plist"; sourceTree = "<group>"; };
+		CFF8A18313F576090025E2EE /* FiveXFiveTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FiveXFiveTests-Info.plist"; sourceTree = "<group>"; };
 		CFF8A18513F576090025E2EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		CFF8A18713F576090025E2EE /* FiveXFiveTests-Prefix.pch */ = {isa = PBXFileReference; path = "FiveXFiveTests-Prefix.pch"; sourceTree = "<group>"; };
+		CFF8A18713F576090025E2EE /* FiveXFiveTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FiveXFiveTests-Prefix.pch"; sourceTree = "<group>"; };
 		CFF8A18813F576090025E2EE /* FiveXFiveTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FiveXFiveTests.h; sourceTree = "<group>"; };
 		CFF8A18A13F576090025E2EE /* FiveXFiveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FiveXFiveTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */

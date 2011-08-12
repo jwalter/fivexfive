@@ -8,9 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RootViewController : UITableViewController {
-
+@interface RootViewController : UITableViewController <UITableViewDelegate, UITableViewDataSource> 
+{
+    NSArray *tableViewArray;
 }
+
+@property (nonatomic, retain) NSArray *tableViewArray;
 
 
 @end

@@ -10,7 +10,6 @@
 
 @implementation FiveXFiveAppDelegate
 
-
 @synthesize window=_window;
 
 @synthesize navigationController=_navigationController;
