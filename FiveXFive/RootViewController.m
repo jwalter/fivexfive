@@ -14,6 +14,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    NSArray *array = [[NSArray alloc] initWithObjects:@"Apple",@"Microsoft",@"Samsung",@"Motorola",nil];
+    
+    self.tableViewArray = array;
+    
+    [array release];
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -52,20 +57,22 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 0;
+    return [tableViewArray count];
 }
 
 // Customize the appearance of table view cells.
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"Cell";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"SimpleTableIdentifier"];
     
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
+        
+        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:@"SimpleTableIdentifier"]autorelease];
+        
     }
-
-    // Configure the cell.
+    
+    cell.textLabel.text = [tableViewArray objectAtIndex:indexPath.row];
+    
     return cell;
 }
 
@@ -112,6 +119,15 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    NSString *message = [NSString stringWithFormat:@"You selected %@",[tableViewArray objectAtIndex:indexPath.row]];
+    
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Alert"
+                          
+                                                    message: message delegate:self cancelButtonTitle:@"Close" otherButtonTitles:nil];
+    
+    [alert show];
+    
+    [alert release];
     /*
     <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
     // ...
