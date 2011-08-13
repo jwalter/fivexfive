@@ -9,6 +9,7 @@
 #import "RootViewController.h"
 
 @implementation RootViewController
+
 @synthesize tableViewArray;
 
 - (void)viewDidLoad
